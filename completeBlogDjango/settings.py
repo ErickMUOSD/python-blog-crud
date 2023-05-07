@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'django_filters',
     'users',
-    'categories'
+    'categories',
+    'posts'
 ]
 
 MIDDLEWARE = [
