@@ -14,4 +14,4 @@ class CategoryApiViewSet(ModelViewSet):
     permission_classes = [IsAdminOrReadOnly]
     lookup_field = 'slug'
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['published','title']
+    filterset_fields = ['published']
