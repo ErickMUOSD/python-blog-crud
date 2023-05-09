@@ -9,4 +9,9 @@ class CommentApiViewSet(ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
 
+    # some comments
+    # some comments
+    # some comments
+    # some comments
+
 
